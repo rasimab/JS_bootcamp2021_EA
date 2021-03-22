@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: #efefec;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  h1{
+    color:cadetblue;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#my_bio_main,
+#my_bio_contact,
+#my_bio_img {
+  float: left;
+}
+
+#my_bio_main {
+  width: 70%;
+}
+
+#my_bio_contact {
+  width: 30%;
+}
+
+#my_bio_img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
